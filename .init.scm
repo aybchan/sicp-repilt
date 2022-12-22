@@ -1,0 +1,10 @@
+(use-modules (ice-9 readline))
+(activate-readline)
+
+(use-modules (system repl common))
+(repl-default-option-set! 'prompt "\u0001\u001b[33m\u0002\u0001\u001b[00m\u0002 ")
+(define (my-repl-welcome repl)
+  (display "\n")
+  (display  (car (string-split *version* #\newline)))
+  (display  "\nEnter `,help' for help.\n"))
+(set! (@ (system repl common) repl-welcome) my-repl-welcome)

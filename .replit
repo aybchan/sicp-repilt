@@ -1,0 +1,6 @@
+run = "guile --no-auto-compile -l .init.scm -l main.scm"
+entrypoint = "main.scm"
+hidden = [".init.scm"]
+
+[nix]
+channel = "stable-22_05"
