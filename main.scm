@@ -8,3 +8,4 @@
 (load "ch1/1.08.scm")
 (load "ch1/1.09.scm")
 (load "ch1/1.10.scm")
+(load "ch1/1.11.scm")
