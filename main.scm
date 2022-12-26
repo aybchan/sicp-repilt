@@ -7,3 +7,4 @@
 (load "ch1/1.07.scm")
 (load "ch1/1.08.scm")
 (load "ch1/1.09.scm")
+(load "ch1/1.10.scm")
