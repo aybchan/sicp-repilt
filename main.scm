@@ -6,3 +6,7 @@
 (load "ch1/1.06.scm")
 (load "ch1/1.07.scm")
 (load "ch1/1.08.scm")
+(load "ch1/1.09.scm")
+(load "ch1/1.10.scm")
+(load "ch1/1.11.scm")
+(load "ch1/1.12.scm")
